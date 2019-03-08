@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
 
-body{
+body {
 
 	font-family: 'Josefin Sans', sans-serif;
-
+	background-color: #DCE1E9;
 }
 
 h1 {
@@ -17,17 +17,16 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: #6B717A; 
+	color: white; 
 }
 
 a:visited {
-
-	color: #DAE0F2;
+  color: gray;
 }
 
 .head {
 
-	color: #6B717A;
+	color: white;
 }
 
 #chess {
@@ -35,7 +34,62 @@ a:visited {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 50%;
+}
+
+#vows {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#portraits {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#oysters {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#amaranthine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bohemia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#voices4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.label {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40pt;
+}
+
+img {
+	width:800px;
+	height:500px;
 }
 
 p {
@@ -45,4 +99,6 @@ p {
 h2 {
 	text-align: center;
 }
+
+
 
