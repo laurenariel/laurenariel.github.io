@@ -1,104 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
 
-body {
 
-	font-family: 'Josefin Sans', sans-serif;
-	background-color: #DCE1E9;
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Josefin Sans", sans-serif;
+  color: #777;
 }
 
-h1 {
-
-	text-align: center;
+.bgimg-1 {
+  position: relative;
+  opacity: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("Michael.jpg");
+  height: 100%;
+  opacity: 20%;
 }
 
-.subhead {
-	text-align: center;
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  text-align: center;
 }
 
 a {
-	text-decoration: none;
-	color: white; 
+  text-decoration: none;
+  color: #ffff;
 }
-
-a:visited {
-  color: gray;
-}
-
-.head {
-
-	color: white;
-}
-
-#chess {
-
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-}
-
-#vows {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-}
-
-#portraits {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-}
-
-#oysters {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#amaranthine {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#bohemia {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#voices4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-}
-
-.label {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40pt;
-}
-
-img {
-	width:800px;
-	height:500px;
-}
-
-p {
-	text-align: center;
-}
-
-h2 {
-	text-align: center;
-}
-
-
-
