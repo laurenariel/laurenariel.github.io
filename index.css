@@ -117,17 +117,6 @@ a {
   background-image: url("Images/ppl.jpg");
 }
 
-.bgimg-3 {
-  position: relative;
-  opacity: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50%;
-  opacity: 20%;
-  background-image: url("Images/Michael.jpg");
-}
-
 .bgimg-4 {
   position: relative;
   opacity: 100%;
