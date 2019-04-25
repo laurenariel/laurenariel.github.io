@@ -13,6 +13,11 @@ a {
   color: white;
 }
 
+p {
+  text-align: center;
+  color: white;
+}
+
 .link {
   font-family: "Scheherazade";
   opacity: 0.9;
@@ -136,7 +141,7 @@ a {
   background-size: cover;
   height: 50%;
   opacity: 20%;
-  background-image: url("Images/ports.jpg");
+  background-image: url("Images/ports.JPG");
 }
 
 .bgimg-6 {
