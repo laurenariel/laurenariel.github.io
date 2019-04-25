@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Scheherazade');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
 
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Scheherazade";
+  font: 400 15px/1.8 "Noto Serif TC";
   color: white;
   background-color: #CDD6DD;
 }
@@ -36,7 +37,7 @@ h3 {
 } 
 
 p {
-	font-size: 25px;
+	font-size: 20px;
 	margin-top: 10pt;
 	margin-right: 100pt;
 	margin-left: 100pt;
@@ -117,11 +118,11 @@ p {
 
 .nav {
   float: right;
-  font-size: 25px;
+  font-size: 20px;
   opacity: 0.9;
   text-align: center;
   padding: 14px 16px;
-  font-family: "Scheherazade";
+  font-family: "Noto Serif TC";
 }
 
 .dropdown {
@@ -175,4 +176,5 @@ p {
 
 .dropdown:hover .dd-content {
   display: block;
-}
+}      
+    
