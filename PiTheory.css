@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Scheherazade');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Julius Sans One";
+  color: #777;
+  background-color: #CDD6DD;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+	height: 800px;
+	width: 600px;
+	float: left;
+	padding: 100px
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	padding-top: 80px;
+}
+
+p {
+	font-family: "Noto Serif TC";
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding-right: 200px;
+	padding-top: 50px;
+}
+
+#head {
+	text-align: center;
+	color: white;
+}
+
+#intro {
+	padding-right: 50px;
+	font-family: "Noto Serif TC";
+	font-size: 18px;
+	color: white;
+	margin: 50px;
+	background-color: #BBC0C5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.PE {
+	height: 500px;
+	width: 700px;
+}
+
+#flowers {
+	float: right;
+}
+
+#record {
+	float: right;
+}
+
+#speaker {
+	float: right;
+}
+
+#arms {
+	float: right;
+}
+
+#pills {
+	float: right;
+}
+
+#effects {
+	float: right;
+}
+
+.description {
+	padding-left: 200px;
+}
+
+#one {
+	padding-right: 100px;
+}
+
+#two {
+	padding-right: 100px;
+}
+
+#three {
+	padding-right: 100px;
+}
+
+#four {
+	padding-right: 100px;
+}
+
+#menu {
+	display: inline;
+	text-align: center;
+	color: white;
+}
+
+#port {
+  font-family: "Noto Serif TC";
+  color: white;
+  opacity: 0.9;
+  text-align: center;
+  padding-left: 10px;
+  align-content: inline;
+}
+
+.navbar {
+  overflow: hidden;
+  float: right;
+  padding-right: 40px;
+}
+
+.dd {
+  float: none;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.nav {
+  float: right;
+  font-size: 20px;
+  opacity: 0.9;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Noto Serif TC";
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  text-align: inline;
+}
+
+.dropdown, .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightgray;
+}
+
+.dd-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 8px 0px rgba (0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dd-content a {
+  float: none;
+  color: black;
+  padding: 14px 16px;
+  display: block;
+}
+
+.dd-content a:hover {
+  background-color: lightgray;
+}
+
+.dropdown:hover .dd-content {
+  display: block;
+}
