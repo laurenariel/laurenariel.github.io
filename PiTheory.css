@@ -42,44 +42,51 @@ p {
 	color: white;
 }
 
+#tag {
+  text-align: center;
+  color: white;
+  font-family: "Noto Serif TC";
+}
+
+/*#annie {
+  height: 700px;
+  width: 500px;
+}*/
+
 #intro {
 	padding-right: 50px;
 	font-family: "Noto Serif TC";
 	font-size: 18px;
 	color: white;
 	margin: 50px;
-	background-color: #BBC0C5;
+	/*background-color: #BBC0C5;*/
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 .PE {
-	height: 500px;
-	width: 700px;
-}
-
-#flowers {
-	float: right;
+	height: 400px;
+	width: 600px;
 }
 
 #record {
-	float: right;
+  height: 700px;
+  width: 500px;
 }
 
 #speaker {
-	float: right;
+  height: 700px;
+  width: 500px;
 }
 
-#arms {
-	float: right;
+#lav {
+  height: 700px;
+  width: 500px;
 }
 
-#pills {
-	float: right;
-}
-
-#effects {
-	float: right;
+#se {
+  height: 700px;
+  width: 500px;
 }
 
 .description {
