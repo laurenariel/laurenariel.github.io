@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 @import url('https://fonts.googleapis.com/css?family=Scheherazade');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
@@ -18,7 +20,6 @@ a {
 img {
 	height: 800px;
 	width: 600px;
-	float: left;
 	padding: 100px
 }
 
@@ -26,6 +27,11 @@ h1 {
 	text-align: center;
 	color: white;
 	padding-top: 80px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
 }
 
 p {
@@ -36,6 +42,12 @@ p {
 	padding-right: 200px;
 	padding-top: 50px;
 }
+
+.description {
+  padding-left: 200px;
+}
+
+/*THE INTRODUCTION*/
 
 #head {
 	text-align: center;
@@ -48,81 +60,117 @@ p {
   font-family: "Noto Serif TC";
 }
 
-/*#annie {
-  height: 700px;
-  width: 500px;
-}*/
+#logo {
+  float: left;
+}
+
+#disc {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 200pt;
+  margin-right: 50pt;
+}
 
 #intro {
-	padding-right: 50px;
 	font-family: "Noto Serif TC";
-	font-size: 18px;
+	font-size: 17px;
 	color: white;
-	margin: 50px;
-	/*background-color: #BBC0C5;*/
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.PE {
-	height: 400px;
-	width: 600px;
-}
-
-#record {
-  height: 700px;
-  width: 500px;
-}
-
-#speaker {
-  height: 700px;
-  width: 500px;
-}
-
-#lav {
-  height: 700px;
-  width: 500px;
-}
-
-#se {
-  height: 700px;
-  width: 500px;
-}
-
-.description {
-	padding-left: 200px;
+	margin: 55px;
 }
 
 #one {
-	padding-right: 100px;
+  padding-right: 100px;
+  padding-left: 70px;
 }
 
 #two {
-	padding-right: 100px;
+  padding-right: 100px;
 }
 
 #three {
-	padding-right: 100px;
+  padding-right: 100px;
 }
 
 #four {
-	padding-right: 100px;
+  padding-right: 100px;
 }
 
-#menu {
-	display: inline;
-	text-align: center;
-	color: white;
-}
-
-#port {
-  font-family: "Noto Serif TC";
-  color: white;
-  opacity: 0.9;
+.menu {
+  display: inline;
   text-align: center;
-  padding-left: 10px;
-  align-content: inline;
+  color: white;
+  margin-left: 20pt;
+  background-color: lightgray;
 }
+
+
+/*THE INSTALLATION*/
+
+.inst {
+  font-family: "Noto Serif TC";
+}
+
+#blurb {
+  text-align: center;
+  margin-left: 250px;
+}
+
+/*THE PHOTO ESSAY*/
+
+.PE {
+	/*height: 400px;
+	width: 600px;*/
+  float: none;
+  padding: 20px;
+}
+
+/*CAPTIONS*/
+
+.container {
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity:  1;
+  background-color: black;
+}
+
+.caption {
+  background color: lightgray;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: "Noto Serif TC";
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/*NAVIGATION BAR*/
 
 .navbar {
   overflow: hidden;
