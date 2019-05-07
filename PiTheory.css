@@ -170,6 +170,23 @@ p {
   backface-visibility: hidden;
 }
 
+/*DATA VIS*/
+
+.chart {
+  width: 1500px;
+}
+
+/*REFERENCES*/
+
+.link {
+  font-family: "Scheherazade";
+  font-size: 30px;
+  text-align: left;
+  display: block;
+  padding: 20px;
+  margin-left: 200pt;
+}
+
 /*NAVIGATION BAR*/
 
 .navbar {
@@ -239,3 +256,4 @@ p {
 .dropdown:hover .dd-content {
   display: block;
 }
+
