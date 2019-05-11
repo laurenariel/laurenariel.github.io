@@ -30,6 +30,10 @@ p {
   font-size: 17px;
 }
 
+header {
+  padding: 60px;
+}
+
 /*NAVBAR*/
 
 .nav {
@@ -43,7 +47,6 @@ p {
 
 .navbar {
   float: right;
-  padding: 60px;
 }
 
 #tag {
@@ -71,6 +74,24 @@ p {
   background-color: white;
   padding: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
