@@ -1,0 +1,95 @@
+/*GENERAL*/
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url("https://use.typekit.net/dyi4kfq.css");
+
+body, html {
+  height: 100%;
+  margin: 20pt;
+  background-color: white;
+  font-family: "futura-pt", sans-serif;
+}
+
+a {
+  color: darkgray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: "futura-pt", sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+}
+header {
+	padding: 60px;
+}
+
+/*NAVBAR*/
+
+.nav {
+  float: right;
+  font-size: 17px;
+  color: darkgray;
+  opacity: 0.9;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "futura-pt", sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  float: right;
+}
+
+#tag {
+  color: darkgray;
+}
+
+#head {
+  float: left;
+  color: black;
+}
+
+/*IMAGES*/
+
+.vertical {
+	height: 1105px;
+	width: 800px;
+	padding: 5px;
+}
+
+.horizontal {
+  height: 500px;
+  width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
