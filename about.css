@@ -1,180 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Scheherazade');
+/*GENERAL*/
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+@import url("https://use.typekit.net/dyi4kfq.css");
 
 body, html {
   height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Noto Serif TC";
-  color: white;
-  background-color: #CDD6DD;
+  margin: 20pt;
+  background-color: white;
+  font-family: "futura-pt", sans-serif;
 }
 
 a {
+  color: darkgray;
   text-decoration: none;
-  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  font-family: "futura-pt", sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20pt;
 }
 
 h1 {
-	font-family: "Julius Sans One";
-	color: white;
-	text-align: center;
-	padding-top: 50px;
+  text-align: center;
 }
 
-h2 {
-	font-family: "Julius Sans One";
-	color: white;
-	text-align: center;
-	padding-top: 50px;
+#description {
+  text-align: center;
+}
+header {
+  padding: 60px;
 }
 
-h3 {
-	font-family: "Julius Sans One";
-	color: white;
-	text-align: center;
-	padding-top: 50px;
-} 
+/*NAVBAR*/
 
-p {
-	font-size: 20px;
-	margin-top: 10pt;
-	margin-right: 100pt;
-	margin-left: 100pt;
-	opacity: 0.7
-}
-
-#me {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	padding: 20px;
-}
-
-#me2 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	padding: 20px;
-	padding-left: 30px;
-}
-
-#statement {
-	border-top: 3px solid white;
-	margin: 100px;
-}
-
-#resume {
-	border-top: 3px solid white;
-	margin: 100px;
-}
-
-.res {
-	text-align: center;
-}
-
-.resbox {
-	padding-bottom: 50px;
-}
-
-.bio {
-	text-align: center;
-	color: white;
-	opacity: 0.7;
-}
-
-.bs {
-	padding: 30px;
-	padding-right: 40px;
-}
-
-.box {
-	margin: 50px;
-	background-color: #BBC0C5;
-}
-
-.link {
-  font-family: "Scheherazade";
+.nav {
+  float: right;
+  font-size: 17px;
+  color: darkgray;
   opacity: 0.9;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "futura-pt", sans-serif;
 }
 
 .navbar {
   overflow: hidden;
   float: right;
-  padding-right: 40px;
 }
 
-.dd {
-  float: none;
-  font-size: 16px;
-  color: black;
-  text-align: left;
-  padding: 14px 16px;
-  text-align: left;
-  font-family: "Julius Sans One";
+#tag {
+  color: darkgray;
 }
 
-.nav {
-  float: right;
-  font-size: 20px;
-  opacity: 0.9;
-  text-align: center;
-  padding: 14px 16px;
-  font-family: "Noto Serif TC";
-}
-
-.dropdown {
+#head {
   float: left;
-  overflow: hidden;
-  text-align: inline;
-}
-
-.dropdown, .dropbtn {
-  font-size: 25px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-#port {
-  font-family: "Scheherazade";
-  color: white;
-  opacity: 0.9;
-  text-align: center;
-  padding-left: 10px;
-  align-content: inline;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: lightgray;
-}
-
-.dd-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 8px 0px rgba (0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dd-content a {
-  float: none;
   color: black;
-  padding: 14px 16px;
-  display: block;
 }
 
-.dd-content a:hover {
-  background-color: lightgray;
+/*BIO STATEMENT AND RESUME*/
+
+.box {
+  text-align: left;
+  padding: 30px;
 }
 
-.dropdown:hover .dd-content {
-  display: block;
-}      
-    
+.heading {
+  color: darkgray;
+}
+
