@@ -1,94 +1,96 @@
+/*GENERAL*/
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+@import url("https://use.typekit.net/dyi4kfq.css");
 
 body, html {
   height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Julius Sans One";
-  color: #777;
-  background-color: #CDD6DD;
-  padding: 10px;
+  margin: 20pt;
+  background-color: white;
+  font-family: "futura-pt", sans-serif;
 }
 
 a {
-	text-decoration: none;
-	color: white;
+  color: darkgray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: "futura-pt", sans-serif;
+  color: black;
+  font-size: 17px;
+  text-align: center
 }
 
 h1 {
 	text-align: center;
-	color: white;
-	padding-top: 90px;
 }
 
-p {
-	font-family: "Noto Serif TC";
-	font-size: 18px;
-	color: white;
+#description {
 	text-align: center;
 }
-
-.vertical {
-	height: 700px;
-	width: 500px;
-	padding: 20px
+header {
+	padding: 60px;
 }
 
-.horizontal {
-	height: 500px;
-	width: 750px
-}
-
-#drag1 {
-	padding: 20px;
-}
-
-#drag3 {
-	padding: 20px;
-	margin-left: 35px;
-}
-
-#drag27 {
-	height: 500px;
-	width: 800px;
-	padding: 10px;
-}
-
-#drag26 {
-	padding: 10px;
-}
-
-#choke {
-	margin-bottom: 200px;
-	margin-left: 100px;
-}
-
-.bath {
-	height: 800px;
-	width: 500px;
-	padding: 20px;
-}
-
-.gallery {
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
+/*NAVBAR*/
 
 .nav {
   float: right;
-  font-size: 20px;
+  font-size: 17px;
+  color: darkgray;
   opacity: 0.9;
   text-align: center;
   padding: 14px 16px;
-  font-family: "Noto Serif TC";
+  font-family: "futura-pt", sans-serif;
 }
 
 .navbar {
   overflow: hidden;
   float: right;
-  padding-right: 40px;
 }
 
-.navbar a:hover {
-  background-color: lightgray;
+#tag {
+  color: darkgray;
 }
+
+#head {
+  float: left;
+  color: black;
+}
+
+/*IMAGES*/
+
+.vertical {
+	height: 1105px;
+	width: 800px;
+	padding: 5px;
+}
+
+.horizontal {
+  height: 500px;
+  width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
