@@ -15,6 +15,9 @@ a:hover {
   color: black;
 }
 
+.res:hover {
+  color: lightblue;
+
 .tab {
   padding-left: 5px;
   padding-right: 5px;
