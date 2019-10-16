@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+/*GENERAL*/
+
+html {
+  height: 100%;
+}
+
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 35pt;
+  letter-spacing: 3pt;
+  text-align: center;
+  padding: 1em;
+}
+
+h4 {
+  font-size: 20pt;
+  letter-spacing: 5pt;
+  text-align: center;
+  color: white;
+}
+
+#hed {
+  padding-top: 2em;
+  font-size: 40pt;
+  color: white;
+}
+
+#nav {
+  font-size: 15pt;
+  padding-bottom: 2em;
+ /* background-color: darkturquoise;*/
+  padding: 1em;
+
+}
+
+/*IMAGE*/
+
+#hero-image {
+  background-image: linear-gradient(rgba(0.5, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("Images/Prague/lovers2.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative
+}
+
+/*LINKS*/
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: white;
+}
+
+.link {
+    border-bottom: 5px solid darkturquoise;
+}
+
+
+
+
