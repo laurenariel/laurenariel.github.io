@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+html {
+  background-color: white;
+}
+
+body {
+  padding: 3em;
+}
+
+h1 {
+  font-size: 40pt;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 3pt;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  border-bottom: solid 3px darkturquoise;
+  padding-bottom: 3px;
+}
+
+#hed {
+  text-align: center;
+}
+
+#subhed {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.heading {
+  font-size: 40pt;
+}
+
+.logo {
+  padding-bottom: 2em;
+}
+
+#dek {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  letter-spacing: 1pt;
+}
+
+#nav {
+  font-size: 13pt;
+}
+
+#tag {
+  font-size: 20pt;
+  letter-spacing: 2pt;
+  font-family: "Staatliches", cursive;
+}
+
+footer {
+  padding-top: 3em;
+}
+
