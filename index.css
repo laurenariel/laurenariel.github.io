@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
 /*GENERAL*/
 
 html {
-  height: 100%;
+  margin: 10pt;
 }
 
 h1 {
@@ -19,48 +18,70 @@ h4 {
   font-size: 20pt;
   letter-spacing: 5pt;
   text-align: center;
-  color: white;
+  color: black;
 }
 
-#hed {
-  padding-top: 2em;
-  font-size: 40pt;
-  color: white;
-}
-
-#nav {
-  font-size: 15pt;
-  padding-bottom: 2em;
-  padding: 1em;
-
-}
-
-/*IMAGE*/
-
-#hero-image {
-  background-image: linear-gradient(rgba(0.5, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("Images/Prague/lovers2.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative
+p {
+  text-align: center;
+  /*color: black;*/
 }
 
 /*LINKS*/
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
-  color: white;
+  color: black;
 }
 
 .link {
-    border-bottom: 5px solid darkturquoise;
+    border-bottom: 5px solid darkseagreen;
+    color: black;
 }
+
+/*IMAGES*/
+
+img {
+  padding: 2em;
+}
+
+/*NAVIGATION*/
+
+#nav {
+  font-size: 15pt;
+  padding-bottom: 2em;
+
+}
+
+/*BODY TEXT*/
+
+.desc {
+  font-size: 15pt
+  color: black;
+}
+
+.descbub {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+}
+
+footer {
+  padding: 2em;
+}
+
+
+
+
+
+
+
+
+
 
 
 
