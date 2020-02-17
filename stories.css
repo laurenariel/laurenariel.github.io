@@ -1,65 +1,78 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
 /*GENERAL*/
 
 html {
-  background-color: white;
-}
-
-body {
-  padding: 3em;
-}
-
-a {
-  text-decoration: none;
-  color: gray;
-  border-bottom: solid 3px darkturquoise;
-  padding-bottom: 3px;
+  margin: 10pt;
 }
 
 h1 {
-  font-size: 40pt;
   font-family: "Staatliches", cursive;
+  font-size: 35pt;
   letter-spacing: 3pt;
+  text-align: center;
+  padding: 1em;
+}
+
+h4 {
+  font-size: 20pt;
+  letter-spacing: 5pt;
+  text-align: center;
+  color: black;
 }
 
 p {
-  font-size: 15pt;
-}
-
-/*HEADING*/
-
-#title {
   text-align: center;
+  font-size: 15pt
+  /*color: black;*/
 }
 
-.logo {
-  padding-bottom: 2em;
+/*LINKS*/
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-#dek {
-  padding-top: 1em;
-  padding-bottom: 2em;
-  letter-spacing: 1pt;
+a:hover {
+  color: black;
 }
+
+.link {
+    border-bottom: 5px solid darkseagreen;
+    color: black;
+}
+
+/*IMAGES*/
+
+img {
+  padding: 2em;
+}
+
+/*NAVIGATION*/
 
 #nav {
-  font-size: 13pt;
+  font-size: 15pt;
+  padding-bottom: 2em;
 }
 
-#tag {
-  font-size: 20pt;
-  letter-spacing: 2pt;
-  font-family: "Staatliches", cursive;
+/*BODY TEXT*/
+
+.desc {
+  font-size: 15pt
+  color: black;
 }
 
-
-/*FOOTER*/
+.descbub {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+}
 
 footer {
-  font-size: 10pt;
-  float: left;
-  padding: 50px;
-  display: block;
+  padding: 2em;
 }
+
+
+
