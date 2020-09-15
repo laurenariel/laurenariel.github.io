@@ -27,13 +27,20 @@ h2 {
 
 #desc {
   padding-bottom: 2em;
-  text-align: center;
+}
+
+.year {
+  font-size: 20px;
 }
 
 /*LINKS*/
 
 .link1 {
   color: gray;
+}
+
+.link2 {
+  color: slategray;
 }
 
 /*NAVBAR*/

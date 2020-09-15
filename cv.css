@@ -18,22 +18,22 @@ h2 {
   padding-top: .3em;
 }
 
-#header {
-  font-family: mrs-eaves-roman-petite-caps, sans-serif;
-  font-size: 40px;
-  text-align: center;
-  padding-bottom: 1em;
+.description {
+  padding-bottom: 2em;
 }
 
-#desc {
-  padding-bottom: 2em;
-  text-align: center;
+.header {
+  font-size: 20px;
 }
 
 /*LINKS*/
 
 .link1 {
   color: gray;
+}
+
+.link2 {
+  color: slategray;
 }
 
 /*NAVBAR*/
@@ -57,14 +57,4 @@ h2 {
   margin-left: 200px; 
   padding: 0px 10px;
 }
-
-
-
-
-
-
-
-
-
-
 

@@ -1,84 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url("https://use.typekit.net/dyi4kfq.css");
 
 /*GENERAL*/
 
 html {
-  margin: 10pt;
+  padding: 3em;
 }
+
+img {
+  height: 700px;
+  width: 700px;
+}
+
+/*HEADINGS*/
 
 h1 {
-  font-family: "Staatliches", cursive;
-  font-size: 35pt;
   letter-spacing: 3pt;
-  text-align: center;
-  padding: 1em;
-}
-
-h4 {
-  font-size: 20pt;
-  letter-spacing: 5pt;
-  text-align: center;
   color: black;
 }
 
-p {
+h2 {
+  padding-bottom: 4em;
+  padding-top: .3em;
+}
+
+#header {
+  font-family: mrs-eaves-roman-petite-caps, sans-serif;
+  font-size: 40px;
   text-align: center;
-  /*color: black;*/
+  padding-bottom: 1em;
 }
 
 /*LINKS*/
 
-a {
-  color: black;
+.link1 {
+  color: gray;
+}
+
+/*NAVBAR*/
+
+.sidenav {
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding: 3em;
+}
+
+.sidenav a {
   text-decoration: none;
-  cursor: pointer;
+  display: block;
 }
 
-a:hover {
-  color: black;
+.main {
+  margin-left: 200px; 
+  padding: 0px 10px;
 }
-
-.link {
-    border-bottom: 5px solid darkseagreen;
-    color: black;
-}
-
-/*IMAGES*/
-
-img {
-  padding: 2em;
-}
-
-/*NAVIGATION*/
-
-#nav {
-  font-size: 15pt;
-  padding-bottom: 2em;
-}
-
-/*BODY TEXT*/
-
-.desc {
-  font-size: 15pt
-  color: black;
-}
-
-.descbub {
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 2em;
-}
-
-footer {
-  padding: 2em;
-}
-
-
-
-
-
-
-
 
 
 
