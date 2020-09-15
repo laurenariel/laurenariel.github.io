@@ -1,64 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url("https://use.typekit.net/dyi4kfq.css");
+
+/*GENERAL*/
 
 html {
-  background-color: white;
-}
-
-body {
   padding: 3em;
 }
 
+/*HEADINGS*/
+
 h1 {
-  font-size: 40pt;
-  font-family: "Staatliches", cursive;
   letter-spacing: 3pt;
+  color: black;
 }
 
 h2 {
-  font-size: 20pt;
+  padding-bottom: 4em;
+  padding-top: .3em;
 }
 
-a {
-  text-decoration: none;
+#header {
+  font-family: mrs-eaves-roman-petite-caps, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/*LINKS*/
+
+.link1 {
   color: gray;
-  border-bottom: solid 3px darkturquoise;
-  padding-bottom: 3px;
 }
 
-#hed {
-  text-align: center;
+/*NAVBAR*/
+
+.sidenav {
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding: 3em;
 }
 
-#subhed {
-  padding-bottom: 2em;
-  text-align: center;
+.sidenav a {
+  text-decoration: none;
+  display: block;
 }
 
-.heading {
-  font-size: 40pt;
+.main {
+  margin-left: 200px; 
+  padding: 0px 10px;
 }
 
-.logo {
-  padding-bottom: 2em;
-}
-
-#dek {
-  padding-top: 1em;
-  padding-bottom: 2em;
-  letter-spacing: 1pt;
-}
-
-#nav {
-  font-size: 13pt;
-}
-
-#tag {
-  font-size: 20pt;
-  letter-spacing: 2pt;
-  font-family: "Staatliches", cursive;
-}
-
-footer {
-  padding-top: 3em;
-}
