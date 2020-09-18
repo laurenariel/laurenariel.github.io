@@ -6,11 +6,6 @@ html {
   padding: 3em;
 }
 
-img {
-  height: 700px;
-  width: 700px;
-}
-
 /*HEADINGS*/
 
 h1 {
@@ -23,17 +18,27 @@ h2 {
   padding-top: .3em;
 }
 
-#header {
-  font-family: mrs-eaves-roman-petite-caps, sans-serif;
-  font-size: 40px;
-  text-align: center;
-  padding-bottom: 1em;
+h3 {
+  font-size: 17px;
+  letter-spacing: 3pt;
+  padding-bottom: .5em;
+}
+
+mark {
+ background-color: darkseagreen;
+ padding: .5em;
+}
+
+mark.link1 {
+
 }
 
 /*LINKS*/
 
 .link1 {
   color: gray;
+  background-color: white;
+  padding: .3em;
 }
 
 /*NAVBAR*/
@@ -51,6 +56,23 @@ h2 {
 .sidenav a {
   text-decoration: none;
   display: block;
+}
+
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+    div.main {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
 }
 
 .main {

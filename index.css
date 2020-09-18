@@ -21,8 +21,12 @@ h2 {
 h3 {
   font-size: 17px;
   letter-spacing: 3pt;
-  padding-bottom: .5em;
-/*  font-family: mrs-eaves-roman-petite-caps, sans-serif;*/
+  padding-bottom: 1em;
+}
+
+mark {
+  background-color: darkseagreen;
+ padding: .2em;
 }
 
 .head1 {
@@ -36,8 +40,15 @@ h3 {
 
 /*LINKS*/
 
-.link1 {
-	color: gray;
+.link1 {  
+  color: gray;
+  background-color: white;
+  padding: .3em;
+
+}
+
+.link2 {
+  color: gray;
 }
 
 /*NAVBAR*/
