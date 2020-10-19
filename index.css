@@ -29,6 +29,10 @@ mark {
  padding: .2em;
 }
 
+footer {
+  padding-bottom: 3em;
+}
+
 .head1 {
 	font-family: mrs-eaves-roman-petite-caps, sans-serif;
 }
