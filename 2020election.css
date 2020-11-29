@@ -1,0 +1,99 @@
+@import url("https://use.typekit.net/dyi4kfq.css");
+
+/*GENERAL*/
+
+html {
+  padding: 1em;
+}
+
+/*HEADINGS*/
+
+h1 {
+  letter-spacing: 3pt;
+  color: black;
+}
+
+h2 {
+  padding-bottom: 4em;
+  padding-top: .3em;
+}
+
+h3 {
+  font-size: 17px;
+  letter-spacing: 3pt;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  text-align: center;
+}
+
+mark {
+  background-color: darkseagreen;
+  padding: .5em;
+}
+
+footer {
+  padding-bottom: : 3em;
+}
+
+.head1 {
+  font-family: mrs-eaves-roman-petite-caps, sans-serif;
+}
+
+.subhead {
+  font-size: 20px;
+  letter-spacing: 3pt;
+}
+
+/*LINKS*/
+
+.link1 {  
+  color: gray;
+  background-color: none;
+  padding: .3em;
+
+}
+
+.link2 {
+  color: gray;
+}
+
+/*NAVBAR*/
+
+.sidenav {
+/*  MY CODE*/
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding: 3em;
+}
+
+.sidenav a {
+  text-decoration: none;
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+    div.main {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.main {
+  margin-left: 200px; 
+  padding: 0px 10px;
+}
+
