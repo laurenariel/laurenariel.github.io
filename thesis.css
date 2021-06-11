@@ -95,5 +95,22 @@ footer {
   padding: 0px 10px;
 }
 
+.quote {
+  text-align: center;
+}
 
+.subhed1 {
+  padding-top: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
 
+.subhed2 {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 4em;
+}
+
+.subhed3 {
+  padding: 4em;
+}

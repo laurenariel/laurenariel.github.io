@@ -20,17 +20,15 @@ h2 {
 
 h3 {
   font-size: 17px;
-  letter-spacing: 3pt;
   padding-bottom: 1em;
-}
-
-mark {
-  background-color: darkseagreen;
- padding: .2em;
 }
 
 footer {
   padding-bottom: 3em;
+}
+
+img  {
+  padding: 1em;
 }
 
 .head1 {
@@ -48,7 +46,6 @@ footer {
   color: gray;
   background-color: none;
   padding: .3em;
-
 }
 
 .link2 {
@@ -94,6 +91,11 @@ footer {
   margin-left: 200px; 
   padding: 0px 10px;
 }
+
+.caption {
+  text-align: center;
+}
+
 
 
 

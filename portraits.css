@@ -20,15 +20,9 @@ h2 {
 
 h3 {
   font-size: 17px;
-  letter-spacing: 3pt;
   padding-bottom: 3em;
   padding-top: 3em;
   text-align: center;
-}
-
-mark {
-  background-color: darkseagreen;
-  padding: .5em;
 }
 
 footer {

@@ -20,26 +20,25 @@ h2 {
 
 h3 {
   font-size: 17px;
-  padding-bottom: 3em;
-  padding-top: 3em;
-  text-align: center;
+  letter-spacing: 3pt;
+  padding-bottom: 1em;
 }
 
 footer {
-  padding-bottom: : 3em;
+  padding-bottom: 3em;
+}
+
+img  {
+  padding: 1em;
 }
 
 .head1 {
-  font-family: mrs-eaves-roman-petite-caps, sans-serif;
+	font-family: mrs-eaves-roman-petite-caps, sans-serif;
 }
 
 .subhead {
-  font-size: 20px;
-  letter-spacing: 3pt;
-}
-
-#desc {
-  padding-bottom: 2em;
+	font-size: 20px;
+	letter-spacing: 3pt;
 }
 
 /*LINKS*/
@@ -48,7 +47,6 @@ footer {
   color: gray;
   background-color: none;
   padding: .3em;
-
 }
 
 .link2 {
@@ -95,5 +93,8 @@ footer {
   padding: 0px 10px;
 }
 
+.caption {
+  text-align: center;
+}
 
 
