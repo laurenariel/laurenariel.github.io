@@ -20,8 +20,7 @@ h2 {
 
 h3 {
   font-size: 17px;
-  letter-spacing: 3pt;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   padding-top: 3em;
   text-align: center;
 }
@@ -97,6 +96,9 @@ footer {
   padding: 0px 10px;
 }
 
+.subhed {
+  text-align: center;
+}
 
 
 
